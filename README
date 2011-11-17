@@ -2,40 +2,43 @@ Introduction
 ------------
 
 This git repository contains the genetic information for Manu Sporny
-extracted using the Illumina OmniExpress Plus Genotyping Beadchip.
+plus suggested modifications.
 
-The main data file contains roughly 1 million genetic markers that
-identify things like eye color, resistance to certain diseases,
-carrier status of other diseases such as glaucoma, certain types of
-cancers, obesity, how susceptible I am to Multiple Sclerosis and other 
-important health markers that could be used to prevent health issues
-in the future.
 
-I am releasing this data because I believe that it will help others.
-
-One way that it could help is that it gives Computer Scientists and 
-Bio-Engineers some raw test data to work with that is around 99% accurate.
-Just having real data to work with is important when writing Open Source
-software and there is very little good Open Source software for genomics
-research right now. I hope that by releasing this data, and with the
-planned release of some open source software to work with this data in
-real-time, that we will help move this exciting new industry forward.
-
-You can read more about why I chose to release my genetic data here:
-
+https://github.com/msporny/dna
+contains the original version of that data. See
 http://manu.sporny.org/2011/public-domain-genome/
+for more information about that release.
+
+This repository
+https://github.com/cariaso/dna
+contains a modified version with suggested changes.
+
+All changes here have legitimate scientific evidence that they would
+achieve the stated goals. 
+
+
+Examples
+--------
+Prevent baldness
+https://github.com/cariaso/dna/commit/1cf6e7b028c5e5d89f1603c3c893f62793abe015
+
+Reduced risk of type-2 diabetes, periodontitis and a coronary heart disease
+https://github.com/cariaso/dna/commit/dcc4b64f0b53f3dde2222b482e98ad2e869a3312
+
+Reduced risk of coronary artery disease at rs1333049
+https://github.com/cariaso/dna/commit/9f72b8895310c82309f2a269a11c7448a6ad2686
+
+Removed increased risk of age related macular degeneration at rs10490924
+https://github.com/cariaso/dna/commit/d4c41241139e790cead06ae3b7d33c097a4c5c47
+
+More optimistic and empathetic
+https://github.com/cariaso/dna/commit/57eb45d5883eb4886701482748900c6c3d9c6223
+
 
 License
 -------
-
-To the extent possible under law, Manu Sporny has waived all copyright and 
-related or neighboring rights to Manu Sporny's Genetic Data from 
-23andme.com. This work is published from: United States.
-
-I am releasing the genetic data held in this repository under a 
-Creative Commons Public Domain License (CC0). You can read more about
-this license here:
-
+Creative Commons Public Domain License (CC0). 
 http://creativecommons.org/publicdomain/zero/1.0/
 
 
